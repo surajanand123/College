@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header, footer {
+    background-color: #003366; /* Darker shade for better contrast */
+    color: white;
+    padding: 1.3em;
+    text-align: center;
+}
+nav {
+    background: #0055A4; /* Slightly lighter than header/footer for contrast */
+    padding: 0.8em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+footer {
+    position: relative; /* Changed from absolute to relative */
+    width: 100%;
+    margin-top: 20px; /* Ensures spacing between content and footer */
+}
+h2 {
+    color: #0055A4; /* Theme color for headings */
+}
+ul {
+    list-style-position: inside;
+}
